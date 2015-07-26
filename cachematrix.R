@@ -2,7 +2,7 @@
 ## The second function, cacheSolve, checks to see if the inverse is in the cache.  It returns the inverse if it is in cache 
 ## or puts it there if it is not in cache.
 
-## Call this funciton first, with a matrix as the arguement
+## Call this funciton first, with a matrix as the arguement, save this list to a variable
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   
@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## call this function second with the result of the first 
+## call this function second with the result of the first.  Your return value will be the inverse of the initial matrix
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
